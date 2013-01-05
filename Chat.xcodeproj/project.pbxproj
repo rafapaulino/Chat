@@ -20,6 +20,10 @@
 		6AE45E1D1622FD1A000D969F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE45DFE1622FD1A000D969F /* Foundation.framework */; };
 		6AE45E251622FD1B000D969F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AE45E231622FD1B000D969F /* InfoPlist.strings */; };
 		6AE45E281622FD1B000D969F /* ChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE45E271622FD1B000D969F /* ChatTests.m */; };
+		6AE45E331622FD53000D969F /* SalaChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE45E321622FD53000D969F /* SalaChat.m */; };
+		6AE45E361622FD90000D969F /* ControleRede.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE45E351622FD8F000D969F /* ControleRede.m */; };
+		6AE45E381622FDB2000D969F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE45E371622FDB2000D969F /* GameKit.framework */; };
+		6AE45E3B162316BD000D969F /* CelulaMensagem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE45E3A162316BD000D969F /* CelulaMensagem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,13 @@
 		6AE45E241622FD1B000D969F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AE45E261622FD1B000D969F /* ChatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatTests.h; sourceTree = "<group>"; };
 		6AE45E271622FD1B000D969F /* ChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatTests.m; sourceTree = "<group>"; };
+		6AE45E311622FD53000D969F /* SalaChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalaChat.h; sourceTree = "<group>"; };
+		6AE45E321622FD53000D969F /* SalaChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalaChat.m; sourceTree = "<group>"; };
+		6AE45E341622FD8F000D969F /* ControleRede.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControleRede.h; sourceTree = "<group>"; };
+		6AE45E351622FD8F000D969F /* ControleRede.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControleRede.m; sourceTree = "<group>"; };
+		6AE45E371622FDB2000D969F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		6AE45E39162316BD000D969F /* CelulaMensagem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelulaMensagem.h; sourceTree = "<group>"; };
+		6AE45E3A162316BD000D969F /* CelulaMensagem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelulaMensagem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AE45E381622FDB2000D969F /* GameKit.framework in Frameworks */,
 				6AE45DFD1622FD1A000D969F /* UIKit.framework in Frameworks */,
 				6AE45DFF1622FD1A000D969F /* Foundation.framework in Frameworks */,
 				6AE45E011622FD1A000D969F /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +93,11 @@
 		6AE45DED1622FD1A000D969F = {
 			isa = PBXGroup;
 			children = (
+				6AE45E371622FDB2000D969F /* GameKit.framework */,
+				6AE45E311622FD53000D969F /* SalaChat.h */,
+				6AE45E321622FD53000D969F /* SalaChat.m */,
+				6AE45E341622FD8F000D969F /* ControleRede.h */,
+				6AE45E351622FD8F000D969F /* ControleRede.m */,
 				6AE45E021622FD1A000D969F /* Chat */,
 				6AE45E201622FD1A000D969F /* ChatTests */,
 				6AE45DFB1622FD1A000D969F /* Frameworks */,
@@ -114,6 +131,8 @@
 				6AE45E0B1622FD1A000D969F /* AppDelegate.h */,
 				6AE45E0C1622FD1A000D969F /* AppDelegate.m */,
 				6AE45E0E1622FD1A000D969F /* MainStoryboard.storyboard */,
+				6AE45E39162316BD000D969F /* CelulaMensagem.h */,
+				6AE45E3A162316BD000D969F /* CelulaMensagem.m */,
 				6AE45E111622FD1A000D969F /* ViewController.h */,
 				6AE45E121622FD1A000D969F /* ViewController.m */,
 				6AE45E031622FD1A000D969F /* Supporting Files */,
@@ -261,6 +280,9 @@
 				6AE45E091622FD1A000D969F /* main.m in Sources */,
 				6AE45E0D1622FD1A000D969F /* AppDelegate.m in Sources */,
 				6AE45E131622FD1A000D969F /* ViewController.m in Sources */,
+				6AE45E331622FD53000D969F /* SalaChat.m in Sources */,
+				6AE45E361622FD90000D969F /* ControleRede.m in Sources */,
+				6AE45E3B162316BD000D969F /* CelulaMensagem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SalaChat.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txtApelido;
+- (IBAction)entrar:(id)sender;
 
 @end
